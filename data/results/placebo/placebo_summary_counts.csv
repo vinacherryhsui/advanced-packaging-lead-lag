@@ -1,0 +1,10 @@
+alignment,direction_group,sig,hac_sig,n_tests
+A_plus1bday (headline),Asian -> AMKR/INTC,25,24,26
+B_minus1bday (reverse placebo),Asian -> AMKR/INTC,1,0,26
+C_noshift (naive calendar),Asian -> AMKR/INTC,1,1,26
+A_plus1bday (headline),AMKR/INTC -> Asian,6,2,26
+B_minus1bday (reverse placebo),AMKR/INTC -> Asian,25,25,26
+C_noshift (naive calendar),AMKR/INTC -> Asian,26,26,26
+A_plus1bday (headline),AMKR<->INTC,0,0,2
+B_minus1bday (reverse placebo),AMKR<->INTC,0,0,2
+C_noshift (naive calendar),AMKR<->INTC,0,0,2
