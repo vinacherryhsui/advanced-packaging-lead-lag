@@ -1,4 +1,4 @@
-# 先進封裝供應鏈跨市場領先-落後關係研究(可重現複製包)
+# 先進封裝供應鏈跨市場領先-落後關係研究
 
 本repo收錄了先進封裝(advanced packaging)供應鏈15家核心公司之間跨市場股價領先-落後關係的完整研究——18支Python腳本,從Yahoo Finance原始股價開始,一路重建所有中間資料跟最終分析結果,並附上兩張定案圖表,任何人都能照著跑出一樣的結果。
 
@@ -42,13 +42,13 @@
 
 ```
 data/
-  raw/          腳本01抓取的原始股價(供獨立稽核)
+  raw/          腳本01抓取的原始股價
   processed/    腳本02-04的清理、對齊、報酬率計算中間產出
   results/      腳本05-16的最終分析結果,分granger/placebo/network/technical/event_analysis五個子資料夾
-  results/figures/  定案圖表(腳本17-18繪製)
+  results/figures/  產出圖表(腳本17-18繪製)
 scripts/
   01-16         資料抓取→清理→核心分析→穩健性驗證→應用分析,依序執行即可重建全部結果
-  17-18         繪製data/results/figures/底下的兩張定案圖
+  17-18         繪製data/results/figures/底下的兩張圖表
 REPRODUCE.md    逐腳本輸入輸出說明、資料衍生鏈、已驗證的重跑結果比對
 requirements.txt
 ```
