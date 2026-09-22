@@ -9,4 +9,3 @@
 | all24_master_table.csv | 15 | pooled與split結果彙總 | 24 |
 | basket_backtest_all19.csv | 16 | 15的分類為「全期間穩定」或「僅後半段」的19條邊，領先者週訊號觸發的跟隨者20日持有報酬，vs 1,000次隨機持有窗口(Mann-Whitney U檢定)、vs 全樣本buy-and-hold | 19 |
 
-**核對範例**：台積電→欣銓，all24_split.csv裡前半段t=5.412、後半段t=3.249，皆為全樣本裡最強的跟隨者反應——已比對確認與原始packaging-network-study/版本一致（差異僅在小數點第6-7位）。
